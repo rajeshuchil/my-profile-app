@@ -137,7 +137,7 @@ export default function ProfileDetail({
           </button>
         </div>{" "}
         <div className="bg-white px-4 md:px-8 py-6">
-          <div className="hidden md:flex justify-between items-center text-sm text-gray-600 border-b border-gray-200 pb-4">
+          <div className="hidden md:flex justify-between items-center text-sm text-gray-600 py-4 px-8 border-2 border-gray-300 rounded-full bg-white">
             <span className="font-medium">
               Core Skills & Technical Proficiencies
             </span>
@@ -393,7 +393,7 @@ export default function ProfileDetail({
 
       <div className="py-6 px-4 md:px-8 bg-gray-50 border-t border-gray-200">
         <div className="max-w-4xl mx-auto">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center py-4 px-8 border-2 border-gray-300 rounded-full bg-white">
             <div className="flex items-center text-gray-600 hover:text-gray-800 transition cursor-pointer">
               <svg
                 className="w-4 h-4 mr-2"
